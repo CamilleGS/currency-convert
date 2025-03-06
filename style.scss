@@ -1,0 +1,142 @@
+$clr-primary: #1B83E2;
+$crl-secondary:#ffffff;
+$crl-background:#E5E5E5;
+$crl-border:#BBBBBB;
+$crl-typograph-label:#777777;
+$crl-typograph-h1:#F4F4F4;
+
+//reset 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+
+
+}
+
+body{
+    background-color: $crl-background;
+}
+
+header{
+    background-color: $clr-primary;
+    height: 66px;
+
+    h1{
+        color: $crl-typograph-h1;
+        font-size: 24px;
+        line-height: 18px; 
+        text-align: center;
+        padding-top: 25px;
+    }
+    
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 375px;
+    height: 766px;
+    background-color: $crl-secondary;
+}
+
+main{
+    padding: 24px;
+
+    label{
+        color: $crl-typograph-label;
+        font-size: 14px;
+        font-weight: 400;
+
+        select{
+            border-radius: 4px;
+            border: 1px solid $crl-border;
+            background: $crl-secondary; 
+            height: 48px;
+            width: 100%;
+            display: block;
+            cursor: pointer;
+            outline: none;
+            appearance: none;
+            padding: 16px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+            margin-top: 6px;
+            margin-bottom: 24px;
+
+
+        }
+        input{
+            border-radius: 4px;
+            border: 1px solid $crl-border;
+            background: $crl-secondary; 
+            height: 48px;
+            width: 100%;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
+            padding: 16px;
+            font-style: 18px;
+
+           
+            
+        }
+    }
+
+    button{
+        background: $clr-primary;
+        cursor: pointer;
+        color: $crl-secondary;
+        border: none;
+        border-radius: 25px;
+        height: 48px;
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 36px;
+        font-weight: 700;
+        font-size: 16px;
+
+        &:hover{
+            opacity: 0.9;
+        }
+        &:active{
+            opacity: 0.7;
+        }
+
+    }
+}
+
+section{
+    border-radius: 4px;
+    border: 1px solid $clr-primary;
+    text-align: center;
+
+    .s-container{
+        text-align: center;
+        padding: 10px;
+
+        p{
+            color: $crl-typograph-label;
+
+            &:last-child{
+                color: $clr-primary;
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+
+        
+    }
+
+    .arrow{
+        padding: 8px;
+    }
+
+    
+}
+
+
+
+
+
