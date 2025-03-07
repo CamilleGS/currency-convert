@@ -4,45 +4,31 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/CamilleGS/currency-convert)  
 ![GitHub repo size](https://img.shields.io/github/repo-size/CamilleGS/currency-convert)  
 
-A simple and dynamic currency converter, developed as part of the **Dev Club** course. This project allows users to convert values from **Brazilian Real (BRL) to US Dollar (USD) and Euro (EUR)** in an intuitive interface. 🚀  
 
----
+A simple and intuitive currency converter, developed as part of the **Dev Club** course. Convert **Brazilian Real (BRL) to US Dollar (USD) and Euro (EUR)** easily. 🚀  
 
-## **🛠 Technologies Used**  
-✅ **HTML** – Project structure.  
-✅ **CSS (SASS)** – Modern and responsive styling.  
-✅ **JavaScript** – DOM manipulation and conversion calculations.  
+## 🔧 **Technologies**  
+- **HTML** – Structure  
+- **CSS (SASS)** – Styling  
+- **JavaScript** – Logic & DOM Manipulation  
 
----
+## ⚡ **Features**  
+- Convert **BRL to USD and EUR**  
+- Auto-update conversion on currency change  
 
-## **📌 Features**  
-✔️ Convert values from **BRL to USD and EUR**.  
-✔️ Automatically update the converted value when changing the currency.  
-
----
-
-## **🚀 How to Run the Project**  
-
-1️⃣ Clone the repository:  
+## 🚀 **How to Use**  
 ```bash
-git clone https://github.com/seu-usuario/currency-convert.git
+git clone https://github.com/CamilleGS/currency-convert.git  
+cd currency-convert  
+open index.html  
 ```  
-2️⃣ Navigate to the project folder:  
-```bash
-cd currency-convert
-```  
-3️⃣ Open the `index.html` file in your browser.  
 
----
+## 📷 **Preview**  
+<img src="./assets/currency-convert.png" width="600px">  
 
-## **📷 Preview**  
-<img src="./assets/currency-convert.png" alt="Project Preview" width="600px" >  
-
----
-
-## **📌 Future Improvements**  
-🔹 Add more currencies for conversion.  
-🔹 Fetch real-time exchange rates using an API.  
+## 🔄 **Future Improvements**  
+- More currency options  
+- Real-time exchange rates  
 
 ---
 
