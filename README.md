@@ -36,7 +36,7 @@ cd currency-convert
 ---
 
 ## **📷 Preview**  
-<img src="" alt="Project Preview" width="600px">  
+<img src="./assets/currenct-convert" alt="Project Preview" width="600px">  
 
 ---
 
