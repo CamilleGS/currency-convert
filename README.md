@@ -50,6 +50,6 @@ cd currency-convert
 💡 **CamilleGS**  
 📌 Project developed during the **Dev Club** course.  
 
-🔗 Connect with me on [LinkedIn](https://www.linkedin.com/)  
+🔗 Connect with me on [LinkedIn](www.linkedin.com/in/camille-gonsalves-de-souza-14ba25267)  
 
 ---
