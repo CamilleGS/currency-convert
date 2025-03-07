@@ -17,6 +17,7 @@ A simple and intuitive currency converter, developed as part of the **Dev Club**
 - Auto-update conversion on currency change  
 
 ## 🚀 **How to Use**  
+go on your powershell or terminal: 
 ```bash
 git clone https://github.com/CamilleGS/currency-convert.git  
 cd currency-convert  
@@ -36,6 +37,6 @@ open index.html
 💡 **CamilleGS**  
 📌 Project developed during the **Dev Club** course.  
 
-🔗 Connect with me on [LinkedIn](www.linkedin.com/in/camille-gonsalves-de-souza-14ba25267)  
-
+🔗 Contact me on discord
+`millhinho`
 ---
