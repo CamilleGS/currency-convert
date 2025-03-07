@@ -14,17 +14,20 @@ const convertValues = () =>{
     let result
     if(select.value === 'US Dollar'){
         result = inputReais / dollar
+        currency.innerHTML = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(result)
 
     } else {
          result = inputReais / euro
+         currency.innerHTML = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR'}).format(result)
+
     }
+
+    
 
     p.innerHTML = new Intl.NumberFormat('pt-US', { style: 'currency', currency: 'BRL'}).format(inputReais)
 
 
-    currency.innerHTML = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'}).format(result)
 
-    currency.innerHTML = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR'}).format(result)
     
 }
 
