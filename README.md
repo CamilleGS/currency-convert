@@ -25,7 +25,7 @@ open index.html
 ```  
 
 ## 📷 **Preview**  
-<img src="./assets/currency-convert.png" width="600px">  
+<img src="./assets/preview.png" width="600px">  
 
 ## 🔄 **Future Improvements**  
 - More currency options  
