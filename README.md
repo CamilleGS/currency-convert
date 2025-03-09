@@ -27,7 +27,7 @@ open index.html
 ## 📷 **Preview**  
 <img src="./assets/preview.png" height="800px"> 
 
-![Preview do Projeto](./assets/preview.gif) 
+![Preview do Projeto](./assets/mypreview.gif) 
 
 ## 🔄 **Future Improvements**  
 - More currency options  
