@@ -30,15 +30,11 @@ open index.html
 ![Preview do Projeto](./assets/mypreview.gif) 
 
 ## 🔄 **Future Improvements**  
-- More currency options  
-- Real-time exchange rates  
-
+- Real-time exchange rates  ✅ using www.awesomeapi.com.br
 ---
 
 ## **👨‍💻 Author**  
-💡 **CamilleGS**  
+ **CamilleGS**  
 📌 Project developed during the **Dev Club** course.  
 
-🔗 Contact me on discord
-`millhinho`
 ---

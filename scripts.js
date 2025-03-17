@@ -1,16 +1,21 @@
 //addEventListener is Watching for clicks
 const button = document.getElementById('btn')
 const select = document.getElementById('slc-currency')
-const dollar = 5.76
-const euro = 6.22
-const bitcoin = 506514.74
 
 
 
-const convertValues = () =>{
+
+const convertValues = async () =>{
     const inputReais = document.getElementById('input').value
     const p = document.getElementById('Reais')
     const currency = document.getElementById('currency')
+
+    const data = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL').then(response => response.json())
+    console.log(data)
+
+    const dollar = data.USDBRL.high
+    const bitcoin = data.BTCBRL.high
+    const euro = data.EURBRL.high
 
     let result
     if(select.value === 'US Dollar'){
