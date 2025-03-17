@@ -5,7 +5,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/CamilleGS/currency-convert)  
 
 
-A simple and intuitive currency converter, developed as part of the **Dev Club** course. Convert **Brazilian Real (BRL) to US Dollar (USD) and Euro (EUR)** easily. 🚀  
+A simple and intuitive currency converter, developed as part of the **Dev Club** course. Convert **Brazilian Real (BRL) to US Dollar (USD), Euro (EUR) and Bitcoin** Also with Real-time exchange rates using www.awesomeapi.com.br. 🚀  
 
 ## 🔧 **Technologies**  
 - **HTML** – Structure  
